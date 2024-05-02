@@ -2,10 +2,14 @@ programa {
   funcao inicio() {
 
 real velocidade, tempo, distancia
-cadeia usuario
+cadeia usuario, motorista
 
   escreva("Digite o seu nome de usuário: ")
   leia(usuario)
+  escreva("\n")
+
+  escreva("Digite o nome do motorista: ")
+  leia(motorista)
   escreva("\n")
   
   escreva("Qual a distância? ")
